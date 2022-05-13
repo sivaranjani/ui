@@ -1,0 +1,13 @@
+{
+  "/api/*":{
+    "target":"http://groceryapp-env.eba-3sntuix9.us-east-1.elasticbeanstalk.com",
+    "secure":false,
+    "logLevel":"info",
+    "changeOrigin": true
+  }
+}
+
+
+
+
+
