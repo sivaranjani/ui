@@ -10,11 +10,11 @@ export class GroceryService {
   constructor(private http:HttpClient) { }
 
   getItems(): Observable<any> {
-    return this.http.get(`http://localhost:8080/api/cgi/getItemList`)
+    return this.http.get('/api/cgi/getItemList');
   }
 
   getItemDetails(id: number): Observable<any> {
-    return this.http.get("http://localhost:8080/api/cgi/getItemDetails/"+id);
+    return this.http.get('/api/cgi/getItemDetails/'+id);
   }
 
 
